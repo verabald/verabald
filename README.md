@@ -5,8 +5,8 @@
   <p>
   Кем бы ты ни был — добро пожаловать в мою нирвану.
   </p>
-  <h3>Меня зовут Вера и я Junior frontend/full stack developer. <br>   
-  :hammer_and_wrench: Мой стек:</h3>
+  <h3>Меня зовут Вера и я Junior frontend/full stack developer.  </h3>
+ <h3> :hammer_and_wrench: Мой стек:</h3>
     <img src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/html5/html5-original.svg" title="HTML5" **alt="HTML5" width="40" height="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/css3/css3-original.svg" title="CSS3" **alt="CSS3" width="40" height="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/javascript/javascript-original.svg" title="JS" **alt="JS" width="40" height="40"/>
@@ -18,4 +18,4 @@
   <img src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/git/git-original.svg" title="Git" **alt="Git" width="40" height="40"/>
  <h3>:pencil2: Мои репозитории:</h3>
 </div>
-https://github-readme-stats.vercel.app/api/top-langs/?username=verabald&layout=donut
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=verabald&layout=donut"/> 
