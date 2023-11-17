@@ -18,4 +18,4 @@
   <img src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/git/git-original.svg" title="Git" **alt="Git" width="40" height="40"/>
  <h3>:pencil2: Мои репозитории:</h3>
 </div>
-[(https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=donut)](https://github.com/anuraghazra/github-readme-stats)
+https://github-readme-stats.vercel.app/api/top-langs/?username=verabald&layout=donut
