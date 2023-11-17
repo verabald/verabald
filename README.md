@@ -2,9 +2,9 @@
   <h1>
   Come as you are!
   </h1>
-  <h2>
+  <p>
   Кем бы ты ни был — добро пожаловать в мою нирвану.
-  </h2>
+  </p>
   <h3>Меня зовут Вера и я Junior frontend/full stack developer. <br>   
   :hammer_and_wrench: Мой стек:</h3>
     <img src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/html5/html5-original.svg" title="HTML5" **alt="HTML5" width="40" height="40"/>
@@ -16,4 +16,6 @@
    <img src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/mongodb/mongodb-original.svg" title="MongoDB" **alt="MongoDB" width="40" height="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/nginx/nginx-original.svg" title="Nginx" **alt="Nginx" width="40" height="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/git/git-original.svg" title="Git" **alt="Git" width="40" height="40"/>
+  :fire: Мои репозитории:
+  [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?verabald&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
 </div>
