@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 220" width="1000" height="220" role="img" aria-label="Sun over green hills">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#06110b"/>
+      <stop offset="55%" stop-color="#0a2416"/>
+      <stop offset="100%" stop-color="#0e3d24"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd166" stop-opacity="0.55"/>
+      <stop offset="55%" stop-color="#f6b93b" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#f6b93b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sunBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffe9a8"/>
+      <stop offset="100%" stop-color="#f4a83c"/>
+    </linearGradient>
+    <clipPath id="frame">
+      <rect x="0" y="0" width="1000" height="220" rx="14"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect x="0" y="0" width="1000" height="220" fill="url(#sky)"/>
+
+    <!-- звёзды -->
+    <g fill="#b7e4c7">
+      <circle cx="120" cy="42" r="1.6" opacity="0.7">
+        <animate attributeName="opacity" values="0.2;0.9;0.2" dur="4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="248" cy="74" r="1.2" opacity="0.5">
+        <animate attributeName="opacity" values="0.6;0.15;0.6" dur="5.5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="795" cy="38" r="1.8" opacity="0.6">
+        <animate attributeName="opacity" values="0.25;0.85;0.25" dur="6.2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="905" cy="86" r="1.3" opacity="0.5">
+        <animate attributeName="opacity" values="0.7;0.2;0.7" dur="4.8s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="640" cy="30" r="1.1" opacity="0.45">
+        <animate attributeName="opacity" values="0.15;0.7;0.15" dur="7s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="360" cy="28" r="1.4" opacity="0.55">
+        <animate attributeName="opacity" values="0.8;0.2;0.8" dur="5s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- свечение -->
+    <circle cx="500" cy="150" r="165" fill="url(#glow)">
+      <animate attributeName="r" values="150;175;150" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.75;1;0.75" dur="7s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- лучи -->
+    <g stroke="#ffd166" stroke-width="3" stroke-linecap="round" opacity="0.55">
+      <animateTransform attributeName="transform" type="rotate" from="0 500 150" to="360 500 150" dur="70s" repeatCount="indefinite"/>
+      <line x1="500" y1="82" x2="500" y2="56"/>
+      <line x1="500" y1="82" x2="500" y2="56" transform="rotate(30 500 150)"/>
+      <line x1="500" y1="82" x2="500" y2="56" transform="rotate(60 500 150)"/>
+      <line x1="500" y1="82" x2="500" y2="56" transform="rotate(90 500 150)"/>
+      <line x1="500" y1="82" x2="500" y2="56" transform="rotate(120 500 150)"/>
+      <line x1="500" y1="82" x2="500" y2="56" transform="rotate(150 500 150)"/>
+      <line x1="500" y1="82" x2="500" y2="56" transform="rotate(180 500 150)"/>
+      <line x1="500" y1="82" x2="500" y2="56" transform="rotate(210 500 150)"/>
+      <line x1="500" y1="82" x2="500" y2="56" transform="rotate(240 500 150)"/>
+      <line x1="500" y1="82" x2="500" y2="56" transform="rotate(270 500 150)"/>
+      <line x1="500" y1="82" x2="500" y2="56" transform="rotate(300 500 150)"/>
+      <line x1="500" y1="82" x2="500" y2="56" transform="rotate(330 500 150)"/>
+    </g>
+
+    <!-- солнце -->
+    <circle cx="500" cy="150" r="46" fill="url(#sunBody)">
+      <animate attributeName="cy" values="150;146;150" dur="9s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- дальние холмы -->
+    <path d="M0,168 C140,132 250,186 400,158 C550,130 690,182 840,150 C910,136 965,152 1000,146 L1000,220 L0,220 Z" fill="#0e4429"/>
+    <!-- ближние холмы -->
+    <path d="M0,196 C120,172 230,206 370,190 C520,173 640,210 780,192 C880,180 950,199 1000,190 L1000,220 L0,220 Z" fill="#166534"/>
+    <path d="M0,196 C120,172 230,206 370,190 C520,173 640,210 780,192 C880,180 950,199 1000,190" fill="none" stroke="#26a641" stroke-width="2" opacity="0.6"/>
+
+    <!-- светлячки -->
+    <g fill="#39d353">
+      <circle cx="180" cy="180" r="2.2" opacity="0.8">
+        <animate attributeName="cy" values="182;164;182" dur="8s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.15;0.9;0.15" dur="8s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="720" cy="188" r="2" opacity="0.7">
+        <animate attributeName="cy" values="190;170;190" dur="9.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.9;0.2;0.9" dur="9.5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="860" cy="178" r="2.4" opacity="0.6">
+        <animate attributeName="cy" values="180;158;180" dur="11s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.2;0.85;0.2" dur="11s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+</svg>
