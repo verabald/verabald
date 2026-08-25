@@ -49,16 +49,6 @@
   <img src="https://img.shields.io/badge/Claude%20Code-0D1117?style=for-the-badge&logo=claude&logoColor=39D353" />
 </p>
 
-<!-- ============ СТАТИСТИКА ============ -->
-
-## 📊 Статистика
-
-<div align="center">
-
-<img height="165" src="https://streak-stats.demolab.com?user=verabald&hide_border=true&background=0D1117&stroke=0E4429&ring=39D353&fire=39D353&currStreakNum=B7E4C7&sideNums=B7E4C7&currStreakLabel=39D353&sideLabels=8FCFA5&dates=5E8C6A" alt="streak" />
-
-</div>
-
 <!-- ============ ЗМЕЙКА ============ -->
 
 <div align="center">
